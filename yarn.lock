@@ -4126,7 +4126,7 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     react-native: 0.72.6
-    react-native-unistyles: 2.0.0-rc.1
+    react-native-unistyles: 2.0.0
     react-native-web: 0.19.9
     solito: 4.1.3
   languageName: unknown
@@ -10561,18 +10561,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-unistyles@npm:2.0.0-rc.1":
-  version: 2.0.0-rc.1
-  resolution: "react-native-unistyles@npm:2.0.0-rc.1"
+"react-native-unistyles@npm:2.0.0":
+  version: 2.0.0
+  resolution: "react-native-unistyles@npm:2.0.0"
   peerDependencies:
     "@react-native/normalize-colors": "*"
     react: "*"
     react-native: "*"
+    react-native-macos: "*"
     react-native-web: "*"
   peerDependenciesMeta:
+    react-native-macos:
+      optional: true
     react-native-web:
       optional: true
-  checksum: ccedbc6cbb510f3158367b88ab82a795fa336cbc1e6e36b06bd05bc344d08bf881746c398bde7587b7b7b9b46769873a4f95db5171959b2acb9f4767619c7098
+  checksum: 0b5fa4b00162fda85116f74c25528414b16cc2acdf9ba16f6d741764aff183ebff62b5f0cbba868708f1ca5f0377a2b38705baf691793473c8f96a26d0070a7e
   languageName: node
   linkType: hard
 
